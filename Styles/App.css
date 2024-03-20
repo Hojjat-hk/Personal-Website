@@ -1055,6 +1055,10 @@ section:not(section.home-section){
         margin-top: 6rem;
         background-image: none;
     }
+    :root.dark-theme .home-section{
+        margin-top: 6rem;
+        background-image: none;
+    }
     .home-section .row{
         flex-direction: column-reverse;
         gap: 4rem;
