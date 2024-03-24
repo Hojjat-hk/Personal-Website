@@ -3,7 +3,7 @@ const navButton = $.querySelector(".nav-btn");
 const headerMenu  = $.querySelector(".header-list");
 const coverForFocus = $.querySelector(".cover-focus");
 const headerLinks = $.querySelectorAll(".header-list__link");
-const homeLinks = $.querySelectorAll(".home-section__btn");
+const homeLinks = $.querySelectorAll(".send-to-section__btn");
 // [+] Functions
 function openMenuHandler(){
     navButton.classList.toggle("nav-btn--open");
@@ -14,8 +14,10 @@ function clickOnLinkHandler(event){
     event.preventDefault();
     let targetSectionOffsetTop = $.querySelector(`.${this.dataset.id}`).offsetTop;
 
-    removeActiveClass("header-list__link--active")
-    this.classList.add("header-list__link--active");
+    if(this.classList.contains("header-list__link")){
+        removeActiveClass("header-list__link--active");
+        this.classList.add("header-list__link--active");
+    }
 
     checkToCloseMenu()
     scrollToTargetSection(targetSectionOffsetTop);
