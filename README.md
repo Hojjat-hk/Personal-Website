@@ -4,7 +4,7 @@
 
 -  **🆓 Free to the public**
 
--  **🚀 With a little customization, you can create a website about your resume**
+-  **🚀 With a little customization, you can create a website about your resume😊**
  
 - - - - - - - - - - - - - - - - - - -  
 🛠️  Attributes : 
