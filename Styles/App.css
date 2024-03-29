@@ -1051,6 +1051,9 @@ section:not(section.home-section){
     }
 }
 @media only screen and (max-width: 576px){
+     *, *::before, *::after{
+        cursor:default !important;
+    }
     .home-section{
         margin-top: 6rem;
         background-image: none;
@@ -1106,10 +1109,6 @@ section:not(section.home-section){
     }
 }
 @media only screen and (max-width: 450px){
-    *, *::before, *::after{
-        cursor:auto;
-        -webkit-tap-highlight-color: transparent;
-    }
     .about-details__wrapper-btn{
         width: 100%;
         flex-direction: column;
