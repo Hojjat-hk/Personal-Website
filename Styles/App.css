@@ -1106,8 +1106,9 @@ section:not(section.home-section){
     }
 }
 @media only screen and (max-width: 450px){
-    *, .nav-btn{
-        cursor:none;
+    *, *::before, *::after{
+        cursor:auto;
+        -webkit-tap-highlight-color: transparent;
     }
     .about-details__wrapper-btn{
         width: 100%;
