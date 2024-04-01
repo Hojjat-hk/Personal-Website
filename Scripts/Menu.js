@@ -13,8 +13,8 @@ function openMenuHandler(){
 function clickOnLinkHandler(event){
     event.preventDefault();
     let targetSectionOffsetTop = $.querySelector(`.${this.dataset.id}`).offsetTop;
-
-    if(this.classList.contains("header-list__link")){
+ 
+     if(this.classList.contains("header-list__link")){
         removeActiveClass("header-list__link--active");
         this.classList.add("header-list__link--active");
     }
