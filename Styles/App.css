@@ -1219,4 +1219,7 @@ section:not(section.home-section){
         -ms-transform: scaleX(2.5);
         -o-transform: scaleX(2.5);
     }
+    .services-section{
+        margin-bottom: 14rem;
+    }
 }
