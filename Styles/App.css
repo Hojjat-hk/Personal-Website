@@ -1211,3 +1211,12 @@ section:not(section.home-section){
         font-size: 1.2rem;
     }
 }
+@media only screen and (min-width:1920px){
+    .services-content__shape{
+        transform: scaleX(2.5);
+        -webkit-transform: scaleX(2.5);
+        -moz-transform: scaleX(2.5);
+        -ms-transform: scaleX(2.5);
+        -o-transform: scaleX(2.5);
+    }
+}
