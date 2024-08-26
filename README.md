@@ -6,7 +6,7 @@
 
 -  **🚀 With a little customization, you can create a website about your resume😊**
  
-- - - - - - - - - - - - - - - - - - -  
+- - - - - - - - - - - - - - - - - - - 
 🛠️  Attributes : 
 <br>
 <ul>
