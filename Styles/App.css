@@ -1072,6 +1072,9 @@ section:not(section.home-section) {
   }
 }
 @media only screen and (max-width: 576px) {
+  *, *::before, *::after{
+    cursor:auto !important;
+  }
   .home-section {
     margin-top: 6rem;
     background-image: none;
